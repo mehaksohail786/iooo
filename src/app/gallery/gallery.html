@@ -1,0 +1,11 @@
+<section class="gallery-hero">
+  <h1>Gallery</h1>
+  <p>Explore our collection of images</p>
+</section>
+
+<section class="gallery-grid">
+  <div class="gallery-card" *ngFor="let img of images">
+    <img [src]="img.src" [alt]="img.title">
+    <div class="gallery-title">{{ img.title }}</div>
+  </div>
+</section>
