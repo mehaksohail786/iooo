@@ -1,0 +1,7 @@
+{
+  "routes": {
+    "/iooo": {},
+    "/iooo/about": {},
+    "/iooo/gallery": {}
+  }
+}
